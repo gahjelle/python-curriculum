@@ -1,5 +1,6 @@
 #!/bin/bash
 
+language="nb-NO"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 OUT=output
 pushd $DIR
@@ -14,7 +15,7 @@ PANDOC_HTML="pandoc -f markdown_github -t html5 -s --highlight-style pygments -c
 PANDOC_PDF="pandoc -f markdown_github -t latex  --latex-engine=pdflatex"
 
 
-for f in ../en-GB/lessons/*/*.md;
+for f in ../$language/lessons/*/*.md;
 do
 	base=`basename "$f"`
 	output="lesson${base%%.*}.html"

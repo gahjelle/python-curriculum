@@ -1,0 +1,35 @@
+{
+    "id": "python",
+    "title":"Python",
+    "description":"Python er et tekstbasert programmeringsspråk som brukes av mange mennesker rundt omkring i verden til å lage interessante ting.",
+    "language": "nb-NO",
+    "number": 4,
+
+    "projects": [
+        {
+            "filename": "lessons/01/01.md",
+            "number": 1
+        },
+        {
+            "filename": "lessons/02/02.md",
+            "number": 2
+        },
+        {
+            "filename": "lessons/03/03.md",
+            "number": 3
+        },
+        {
+            "filename": "lessons/04/04.md",
+            "number": 4
+        },
+        {
+            "filename": "lessons/05/05.md",
+            "number": 5
+        },
+        {
+            "filename": "lessons/06/06.md",
+            "number": 6
+        }
+    ]
+}
+
